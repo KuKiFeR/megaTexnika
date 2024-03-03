@@ -152,32 +152,43 @@ button {
   justify-content: center;
 }
 .box-tex {
-  
   width: 250px;
-  ;
- box-shadow: 1px 1px 8px 1px rgba(128, 128, 128, 0.414);
- border-radius: 9px;
+  box-shadow: 1px 1px 8px 1px rgba(128, 128, 128, 0.414);
+  border-radius: 9px;
   padding: 10px;
 }
 .kateqori > h2 {
-  color: #596C72;
-  
+  color: #596c72;
+
   padding: 20px 0;
   background-color: rgb(255, 255, 255);
 }
 .texnikalar {
   display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
 }
-.box-tex>img{
+.box-tex > img {
   width: 240px;
-
 }
-.box-tex>h3{
+.box-tex > h3 {
   text-align: center;
-  color: #596C72;
+  color: #596c72;
+}
+
+.demo {
+  width: 90%;
+  display: flex;
+  gap: 10;
+}
+.left-demo > img {
+  width: 290px;
+  height: 470px;
+}
+.top-demo > img {
+  width: 600px;
+  height: 390px;
 }
 
 /* main end */
